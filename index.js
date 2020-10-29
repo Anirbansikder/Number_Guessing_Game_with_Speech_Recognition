@@ -4,7 +4,6 @@ const container = document.getElementById('container');
 var count = 0;
 
 const randNum = Math.floor(Math.random() * 100) + 1;
-console.log(randNum);
 
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
