@@ -1,66 +1,67 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background:  url('/Image/background.jpg') no-repeat center/cover;
-    color:white;
+body {
+  background: url(../Image/background.jpg) no-repeat center/cover;
+  color: white;
 }
-.container{
-    background: radial-gradient( rgba(255,255,255,0.1) , rgba(0,0,0,0.9));
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    font-family: arial , sans-serif;
+.container {
+  background: radial-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: arial, sans-serif;
 }
-img{
-    height: 350px;
-    width: 250px;
-    margin-top: 50px;
+img {
+  height: 350px;
+  width: 250px;
+  margin-top: 50px;
 }
-h1 , h3{
-    margin-top: 10px;
-    margin-bottom: 0;
-    text-shadow: 2px 3px 2px black;
-    text-align: center;
+h1,
+h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-shadow: 2px 3px 2px black;
+  text-align: center;
 }
-p{
-    line-height: 1.5;
-    margin: 0;
+p {
+  line-height: 1.5;
+  margin: 0;
 }
-.play-again{
-    padding: 10px 15px;
-    border: 0;
-    background: #d8d7d7;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-weight: 800;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 3px black;
-    box-shadow: 4px 4px 10px 0.5px black;
+.play-again {
+  padding: 10px 15px;
+  border: 0;
+  background: #d8d7d7;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px black;
+  box-shadow: 4px 4px 10px 0.5px black;
 }
-.play-again:hover{
-    background: #b8b8b8;
-    cursor: pointer;
+.play-again:hover {
+  background: #b8b8b8;
+  cursor: pointer;
 }
-.msg{
-    font-size: 1.5em;
-    text-shadow: 2px 3px 2px black;
-    text-align: center;
+.msg {
+  font-size: 1.5em;
+  text-shadow: 2px 3px 2px black;
+  text-align: center;
 }
-.temp{
-    margin : 20px 0;
-    text-align: center;
+.temp {
+  margin: 20px 0;
+  text-align: center;
 }
-.box{
-    border: 3px solid #dedede;
-    display: inline;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 8px;
-    text-align: center;
+.box {
+  border: 3px solid #dedede;
+  display: inline;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px;
+  text-align: center;
 }
